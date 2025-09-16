@@ -299,7 +299,7 @@ Hero
 }
 header {
   padding: 25px 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  border-bottom: none;
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -821,7 +821,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envira, i.fa-envelope, i.fa-medkit, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envira, i.fa-envelope, i.fa-medkit, i.fa-coffee, .fa-key {
         font-size: 14px;
         position: absolute;
         top: 50%;

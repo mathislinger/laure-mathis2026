@@ -235,16 +235,25 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 43.600734, lng: 1.671797};
+    var mapCenter = {lat: 43.600734, lng: 1.671797};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
-        center: location,
+        center: mapCenter,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
+    // Marker for Château du Pujolet
+    var marker1 = new google.maps.Marker({
+        position: {lat: 43.60028944253579, lng: 1.6712470637587282},
+        map: map,
+        title: 'Château du Pujolet'
+    });
+
+    // Marker for Eglise Sainte-Foy
+    var marker2 = new google.maps.Marker({
+        position: {lat: 43.54279845553851, lng: 1.6102535831070146},
+        map: map,
+        title: 'Eglise Sainte-Foy'
     });
 }
 
