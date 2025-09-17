@@ -20,7 +20,6 @@ Initial top rgba(55, 36, 40, .88)
 New top rgba(190, 143, 103, 1)
 
 clé API
-AIzaSyCMkVq0QRC0BYcsaopiF9JoeT0lIdyPKbQ
 Gérer les quotas: https://console.cloud.google.com/iam-admin/quotas?project=even-environs-262420
 
 
